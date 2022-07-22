@@ -1,6 +1,6 @@
 body {
     background: #1F2937;
-    margin: 100px 50px;
+    margin: 70px 50px 30px 50px;
     font-family: 'Karla', sans-serif;
 }
 h1 {
@@ -16,7 +16,15 @@ h1 {
 }
 #bottomH1 {
     color: #4ADF86
-
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+    margin: 15px 0px;
+}
+h5 {
+    margin: 0;
 }
 p {
     font-family: 'Inter', sans-serif;
@@ -24,7 +32,7 @@ p {
     font-size: 20px;
     line-height: 28px;
     color: #D5D4D8;
-    margin: 7px 0px;
+    margin-bottom: 50px;;
 }
 
 #btn {
@@ -36,7 +44,7 @@ p {
     color: white;
     border: none;
     border-radius: 6px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 hr {
     border: 1px solid #2F3E53;
@@ -59,21 +67,23 @@ hr {
     text-align: center;
     min-width: 40%;
 }
+
 .txt {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
     color: #D5D4D8;
-    margin: 7px 0px;
+    margin-top: 10px;
 }
 #range {
     color: #4ADF86;
     font-weight: 800;
 }
 .slider {
+  display: block;
   -webkit-appearance: none;
-  width: 50%;
+  width: 30%;
   height: 20px;
   background: #d3d3d3;
   outline: none;
@@ -99,4 +109,16 @@ hr {
   height: 20px;
   background: #04AA6D;
   cursor: pointer;
+}
+label {
+    display: flex;
+    margin-top: 10px;
+}
+#check-text {
+    color: #04AA6D;
+    font-weight: 800;
+    font-size: 20px
+}
+#check {
+    margin-left: 15px;
 }
