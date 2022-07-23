@@ -1,4 +1,5 @@
 # JavaScript-Password-Generator-
+https://gusmalikah.github.io/JavaScript-Password-Generator-/
 This project is build with JavaScript, Html, and CSS.
 
 It enables the user to generate random password with length of their choice from minimum of 7 charecters till maximum of 20 charecters.
